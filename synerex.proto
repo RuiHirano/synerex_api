@@ -98,6 +98,7 @@ message MbusMsg {
     uint32 msg_type = 5;  // for message type
     string msg_info = 6;   // for abstract information
     string arg_json = 7;
+    Content cdata = 8; // content data
 }
 
 enum GatewayType {
